@@ -42,3 +42,6 @@ Screenshots do Projeto
 ![image](https://github.com/dantasz1/EstudosAleatorios/assets/134528492/72cf33fa-2df5-4055-ac8e-9819c4e987b6)
 
 ![image](https://github.com/dantasz1/EstudosAleatorios/assets/134528492/b44d0ec6-6623-4054-8b6f-2afbbdbc7c4b)
+
+![image](https://github.com/dantasz1/BarbeariaPremium/assets/134528492/bd61ab68-3157-4075-8247-fae39e12cfc7)
+
