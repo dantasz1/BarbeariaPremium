@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💈Barbearia✂️</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav  id="navbar"      class="nav container">
+            <a class="logo" href="#slidebox"><img src="imagens\Logo.png" alt="logo barbearia"></a>
+            <button id="hamburger" class="fa fa-bars" onclick="menuShow()"></button>
+            <ul class="textos" id="menu">
+                <li><a href="#background">Home</a></li>
+                <li><a href="#nossa-marca">Nossa Marca</a></li>
+                <li><a href="#cortes">Cortes</a></li>
+                <li><a href="#contato">Agendar</a></li>
+            </ul>
+            <div class="redes_sociais">
+                <a href="/"> <i id="WhatsApp" class="fa fa-whatsapp" style="font-size:24px"></i> </a>
+                <a href="/"> <i id="instagram" class="fa fa-instagram" style="font-size:24px"></i> </a>
+                <a href="/"> <i id="facebook" class="fa fa-facebook" style="font-size:24px"></i> </a>
+            </div>
+            <div class="mobile-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Agende</a></li>
+                <li><a href="/">Mais</a></li>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="background" class="backgroundBox">
+                <div class="background">
+                    <img src="imagens\Group 3.png" alt="Imagem 1">
+            </div>
+        </section>
+        <section id="nossa-marca" class="NossaMarca">
+            <div class="cards container">
+                <div class="card1">
+                    <h2>Nossa Marca</h2>
+                    <p>Inspirada nas antigas barbearias
+                        nova-iorquinas típicas as décadas
+                        de 40, 50 e 60, a Barbearia Corleone
+                        chega com a intenção de resgatar a
+                        cultura masculina, perdida ao longo
+                        dos anos, em que os homens se
+                        encontravam para fazer a barba à
+                        navalha e cortar os cabelos enquanto
+                        fumavam seus charutos, bebiam e
+                        conversavam.</p>
+                </div>
+                <div class="card2">
+                    <p>Entre toalhas quentes e massagem facial,
+                        os melhores cremes e espumas preparam
+                        o rosto dos nossos clientes. E hoje,
+                        eles e nossos visitantes ainda podem
+                        aproveitar o espaço da nossa cervejaria.</p>
+                </div>
+            </div>
+        </section>        
+        <section id="cortes"  class="cortes">
+            <div class="container">
+                <h2>Cortes & Cabelo</h2>
+                <div class="opçoesCortes">
+                    <div class="barba">
+                        <div class="boxImagens">
+                            <img src="imagens\imagem1.png" alt="" class="cortesImg">
+                            <p class="Valores">85$</p>
+                        </div>
+                        <h3>Barba</h3>
+                    </div>
+                    <div class="cabelo">
+                        <div class="boxImagens">
+                            <img src="imagens\imagem2.png" alt="" class="cortesImg">
+                            <p class="Valores">150$</p>
+                        </div>
+                        <h3>Cabelo</h3>
+                    </div>
+                    <div class="Cabelo+Barba">
+                        <div class="boxImagens">
+                            <img src="imagens\imagem3.png" alt="" class="cortesImg">
+                            <p class="Valores">200$</p>
+                        </div>
+                        <h3>Cabelo + Barba</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="contato">
+            <div class="card container">
+                <h2 id="contatoh2">Contato</h2>
+                <div class="contato-info">
+                    <div class="contato-item">
+                        <h2>(99)9-8765-4321</h2>
+                        <button>Entrar em contato</button>
+                    </div>
+                    <div class="contato-item">
+                        <h2>(99)9-8765-4321</h2>
+                        <button>Entrar em contato</button>
+                    </div>
+                </div>
+
+                <div class="localizacao">
+                    <div class="conteudo">
+                        <i id="local" class="fa fa-map-marker" style="font-size: 24px;"></i>
+                        <h3 id="nomeDaRua">Av. Paulista - SP, n° 200</h3>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7314.166389498724!2d-46.6540054706726!3d-23.565455346196067!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59b862ef21f5%3A0x84773b51a19040d2!2sAv.%20Paulista%2C%20854%20-%20Loja%2026%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001311-100%2C%20Brasil!5e0!3m2!1spt-PT!2sus!4v1715716961051!5m2!1spt-PT!2sus" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="rodaPe">
+            <div class="cardRodaPe">
+               <img src="imagens\bigoderodaPe.png" alt="" id="bigodeRodaPe"> 
+                
+                <h6>Copyright © 2024 André. Todos os direitos reservados</h4>
+                <h4>design: andré</h4>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="./JavaScript/index.js" defer></script>
+    
+</body>
+
+</html>
