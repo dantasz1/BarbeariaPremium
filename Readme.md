@@ -2,7 +2,7 @@
 
 Bem-vindo ao projeto da Barbearia Premium, um site elegante e funcional que oferece uma experiência única de barbearia online.
 
-Link do Site: https://dantasz1.github.io/BarbeariaPremium/
+Visite : [https://dantasz1.github.io/BarbeariaPremium/](https://barbeariapremium.netlify.app/)
 
 ## Sumário
 - [Recursos](#recursos)
